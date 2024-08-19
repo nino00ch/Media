@@ -1,0 +1,69 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blue;
+    
+}
+body h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+h3{
+    display: none   ;
+}
+.boxes {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    color: azure;
+   
+    
+   
+   
+}
+
+.boxes  img {
+    width: 90px;
+    border-radius: 50%;
+    margin-left: 120px;
+    
+}
+.box1 {
+    background-color: rgb(232, 23, 23);
+   pad
+}
+.box2 {
+    background-color: rgb(13, 242, 13);
+}
+.box3 {
+    background-color: yellow;
+}
+.box {
+border-radius: 10px;
+padding: 32px;
+
+}
+@media screen and  (min-width: 200px) and (max-width: 600px){ 
+    .boxes {
+    }
+    
+}
+@media  screen and (max-width: 200px) {
+    body {
+        background-color: orange;
+    }
+    .container {
+        display: none;
+       
+    }
+    h3 {
+        display: block;
+    }
+}
